@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <!-- font-1-title -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
+    <!-- font-1-snapdeal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
+    <!-- css-link -->
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <title>cart</title>
+</head>
+
+<body>
+
+    <header class=" text-white py-2">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+            <div class="col-2">
+                <h2 class="text-white lavishly-yours-regular">
+                    <!-- <img src="./images/logo.png" alt="logo" height="100px"> -->
+                     snapdeal
+                </h2>
+            </div>
+            <div class="col-7">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                        <form class="d-flex" role="search">
+                            <input class="form-control" type="search" placeholder="Search products"
+                                aria-label="Search" />
+                        </form>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-2 ms-5">
+                <div>
+                    <a href="./cart.html" class="btn btn-primary position-relative">
+                        <i class="fa-solid fa-cart-plus"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                            id="cart-count">
+                            0
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="row" id="prd-list">
+                </div>
+            </div>
+        </section>
+    </main>
+<!-- boot-attachment -->
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<!-- js-attachment -->
+    <script src="./JS/script.js"></script>
+</body>
+</html>

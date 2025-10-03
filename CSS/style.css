@@ -1,0 +1,83 @@
+.title-font{
+      font-family: "Sorts Mill Goudy", serif;
+}
+.lavishly-yours-regular {
+  font-family: "Lavishly Yours", cursive;
+  font-weight: 600;
+ 
+}
+.my-btn{
+      padding: 3px;
+      background-color: rgb(38, 204, 8);
+
+}
+.btn.btn-sm {
+  display: inline-block !important;
+  width: auto !important;
+}
+
+/* ===== Header ===== */
+header {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+header h2 {
+    color: #ffd600;
+}
+
+/* ===== Cards ===== */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-title, .card-text {
+    color: #ffffff;
+}
+
+/* ===== Buttons ===== */
+.btn-primary {
+    background-color: #0b0c0c;
+    border-color: #e5edee;
+}
+.btn-secondary {
+    background-color: #616161;
+    border-color: #616161;
+    color: #ffffff;
+}
+.btn-secondary:hover {
+    background-color: #424242;
+    border-color: #424242;
+    color: #ffffff;
+}
+.btn-danger {
+    background-color: #e53935;
+    border-color: #e53935;
+}
+.btn-danger:hover {
+    background-color: #c62828;
+    border-color: #c62828;
+    color: #fff;
+}
+
+/* ===== Total Box ===== */
+#yourtotal {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+/* ===== Quantity Buttons ===== */
+.d-flex button {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+}
