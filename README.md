@@ -1,32 +1,82 @@
-# 🛒 Cart-JS
+# 🛍️ Cart JS
 
-[![GitHub issues](https://img.shields.io/github/issues/pragati1112/cart-js)](https://github.com/pragati1112/cart-js/issues)
-[![GitHub forks](https://img.shields.io/github/forks/pragati1112/cart-js)](https://github.com/pragati1112/cart-js/network)
-[![GitHub stars](https://img.shields.io/github/stars/pragati1112/cart-js)](https://github.com/pragati1112/cart-js/stargazers)
-[![License](https://img.shields.io/github/license/pragati1112/cart-js)](https://github.com/pragati1112/cart-js/blob/main/LICENSE)
+A simple and responsive shopping cart project built using **HTML, CSS, Bootstrap, and JavaScript**.  
+It allows users to browse beauty products, add them to the cart, update quantities, view totals, and remove items easily — all with local storage functionality.
 
 ---
 
-## 📌 Project Description
+## 📸 Screenshots
 
-`cart-js` is a **shopping cart web application** built with **HTML, CSS, and JavaScript**.  
-It allows users to browse products, add them to the cart, remove them, and view a dynamic cart summary including total price and discounts.  
+### 🏠 Homepage
+Displays all products with “Add to Cart” and “Buy Now” options.
 
-This project demonstrates front-end skills like **DOM manipulation**, **event handling**, and **responsive design**.
+<img width="1871" height="909" alt="image" src="https://github.com/user-attachments/assets/28f59738-46e9-461e-a04f-394acc3692a5" />
 
----
 
-## 🧰 Features
+### 🛒 Cart Page
+Shows selected items, quantity controls, subtotal, and total calculation.
 
-- Dynamic product listing with images, names, and prices
-- Add products to the cart
-- Remove products from the cart
-- Cart summary showing total items, total price, and discount
-- Automatic discount for totals above a certain amount (e.g., 5% over ₹500)
-- Responsive layout for desktop and mobile
-- Organized folder structure for easy maintenance
+<img width="1877" height="839" alt="image" src="https://github.com/user-attachments/assets/a7de830c-d25e-40bc-bc2c-2f2e015a29aa" />
+
+
 
 ---
 
-## 🗂 Folder Structure
+## ⚙️ Features
+- Browse multiple products with prices and ratings  
+- Add or remove products from the cart  
+- Update quantity with instant subtotal calculation  
+- Auto calculate total and discount (if applicable)  
+- Fully responsive layout using **Bootstrap 5**  
+- Stores cart data using **localStorage**
 
+---
+
+## 🧩 Folder Structure
+
+cart-js/
+│
+├── CSS/ # Styling files
+├── JS/ # JavaScript functionality
+├── extra/ # Extra assets or resources
+├── images/ # Project screenshots & product images
+├── webfonts/ # Font Awesome / icon fonts
+│
+├── cart.html # Cart page
+├── index.html # Main product listing page
+└── README.md # Project documentation
+
+
+---
+
+## 🛠️ Technologies Used
+- **HTML5**
+- **CSS3**
+- **Bootstrap 5**
+- **JavaScript (ES6)**
+
+---
+
+## 🚀 How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/pragati1112/cart-js.git
+Open the project folder.
+
+Run index.html in your browser to explore the homepage.
+
+Add products to the cart and view them on cart.html.
+
+💡 Future Improvements
+
+Add a product search & filter feature.
+
+Integrate with a backend (Node.js / Firebase).
+
+Add payment or checkout page.
+
+👩‍💻 Author
+
+Pragati Ahir
+💫 Front-End Developer & Web Enthusiast
+📎 GitHub Profile
